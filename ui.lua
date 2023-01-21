@@ -859,7 +859,7 @@ function initLibrary()
                         else
                             gradientColor = ColorSequence.new{
                                 ColorSequenceKeypoint.new(0, Color3.fromRGB(32, 32, 32)), 
-                                ColorSequenceKeypoint.new(1, Color3.fromRGB(17, 17, 17))
+                                ColorSequenceKeypoint.new(1, Color3.fromRGB(40, 40, 40))
                             }
                         end
 
