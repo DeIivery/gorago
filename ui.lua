@@ -347,7 +347,7 @@ function initLibrary()
             ZIndex = 3,
             Size = UDim2.new(0, 0, 1, 0),
             BackgroundTransparency = 1,
-            Position = UDim2.new(0, 0, 0, 0),
+            Position = UDim2.new(0, 8, 0, 0),
             FontSize = Enum.FontSize.Size14,
             TextSize = 14,
             TextColor3 = Color3.fromRGB(255, 255, 255),
@@ -737,13 +737,13 @@ function initLibrary()
                         ZIndex = 4,
                         Size = UDim2.new(0, 213, 1, 0),
                         BackgroundTransparency = 1,
-                        Position = UDim2.new(0, 1, 0, 0),
+                        Position = UDim2.new(0, 0, 0, 0),
                         FontSize = Enum.FontSize.Size14,
                         TextSize = 13,
                         TextColor3 = Color3.fromRGB(255, 255, 255),
                         Text = name,
                         Font = Enum.Font.Gotham,
-                        TextXAlignment = Enum.TextXAlignment.Left,
+                        TextXAlignment = Enum.TextXAlignment.Center,
                         Parent = button
                     })
 
